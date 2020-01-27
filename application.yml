@@ -1,6 +1,6 @@
 spring: 
  profiles: 
-  active:
+  active: 
     - dev
 ---
 spring: 
@@ -10,5 +10,5 @@ spring:
 ---
 spring: 
  profiles: test #测试环境
- application：
+ application: 
   name: microservicecloud-config-com-test
